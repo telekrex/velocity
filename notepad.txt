@@ -3,12 +3,7 @@ Velocity -- the sandbox library
 Sound -- simulate motor excite sound
 
 
-
-
-Just be sure that all inputs to formulas are in the base unit of measurement. The results can be made into a proper readable measurement at the end of the calculating.
-
-Units
-Used in all functions in this library
+Units - used in all functions in this library if not specified in the function
 - Volts
 - Watts
 - Amps
@@ -22,11 +17,6 @@ Used in all functions in this library
 
 Formulas..
 
-Human readable (convert raw value into most commonly understandable, up or down a class)
-Human readable current (amps, mA)
-Human readable voltage (volts, kV)
-Human readable power (watts, mW, MW, KW)
-
 Calculate distance covered by going X speed for Y time
 Calculate time to cover X distance by going Y speed
 Calculate speed when X distance is covered in Y time
@@ -36,7 +26,5 @@ Calculate horsepower from RPM x Torque / 5252
 Calculate horsepower from Watts?
 Calculate how fast a motor could pull an X weight load from Y horsepower
 Factor in drivetrain loss, friction
-
 kW per kg
-
 Allow user to create a combination/string of gears and specify their sizes, and calculate the torque from the input to the output
