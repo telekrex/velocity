@@ -1,0 +1,41 @@
+
+
+Main Scripts:
+Velocity -- the sandbox library
+Sound -- simulate motor excite sound
+
+
+
+
+Just be sure that all inputs to formulas are in the base unit of measurement. The results can be made into a proper readable measurement at the end of the calculating.
+
+Units
+Used in all functions in this library
+- Volts
+- Watts
+- Amps
+- Ohms
+- Milimeters (when talking about size)
+- Meters (when talking about distance)
+- Grams
+
+
+
+
+To do..
+
+Formulas..
+
+Human readable (convert raw value into most commonly understandable, up or down a class)
+Human readable current (amps, mA)
+Human readable voltage (volts, kV)
+Human readable power (watts, mW, MW, KW)
+
+Calculate distance covered by going X speed for Y time
+Calculate time to cover X distance by going Y speed
+Calculate speed when X distance is covered in Y time
+Calculate volts, amps, watts from arranging X batteries in either par or ser
+Calculate torque from gear ratio/size
+Calculate horsepower from RPM x Torque / 5252
+Calculate horsepower from Watts?
+Calculate how fast a motor could pull an X weight load from Y horsepower
