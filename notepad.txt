@@ -1,6 +1,3 @@
-Main Scripts:
-Velocity -- the sandbox library
-Sound -- simulate motor excite sound
 
 
 Units - used in all functions in this library if not specified in the function
@@ -11,20 +8,10 @@ Units - used in all functions in this library if not specified in the function
 - Milimeters (when talking about size)
 - Meters (when talking about distance)
 - Ft lbs (when talking about torque, always use ft lbs)
-- Grams
 
 
 
 Formulas..
-
-Calculate distance covered by going X speed for Y time
-Calculate time to cover X distance by going Y speed
-Calculate speed when X distance is covered in Y time
-Calculate volts, amps, watts from arranging X batteries in either par or ser
-Calculate torque from gear ratio/size
-Calculate horsepower from RPM x Torque / 5252
-Calculate horsepower from Watts?
-Calculate how fast a motor could pull an X weight load from Y horsepower
-Factor in drivetrain loss, friction
-kW per kg
+Estimate HP from torque, rpm, drivetrain loss estimate
 Allow user to create a combination/string of gears and specify their sizes, and calculate the torque from the input to the output
+Find power to weight ratio from a battery

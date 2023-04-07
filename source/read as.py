@@ -5,10 +5,6 @@ def read_distance(meters):
 
 	# 1km  = 1,000 meters
 	# 1,000 mm = 1 meter
-
-
-
-
 	return ''
 
 
