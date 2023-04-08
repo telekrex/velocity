@@ -10,7 +10,6 @@ Units - used in all functions in this library if not specified in the function
 - Ft lbs (when talking about torque, always use ft lbs)
 
 
-
 Formulas..
 Estimate HP from torque, rpm, drivetrain loss estimate
 Allow user to create a combination/string of gears and specify their sizes, and calculate the torque from the input to the output

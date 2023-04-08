@@ -1,6 +1,11 @@
 # ⚡ Velocity
-**[WIP]** A sandbox for ideation and iteration on small electric powertrain designs.
+**[ Work in progress ]**
 
-Disclaimer: I am not a professional engineer and this project will not give you real-world accurate numbers, it's meant moreso for understanding changes to your design and giving you ballpark numbers.
+A sandbox for ideation of small electric powertrain designs.
 
-See notepad.txt for my latest scratch which is ahead of the actual code.
+*I am not a professional and this project will not give you real-world accurate numbers, it's meant mostly for understanding changes to your design and giving you ballpark numbers.*
+
+### Development
+See `notepad.txt` for my latest scratch which is ahead of the actual code.
+
+A good resource to use as reference alongside this project is [ev-database.org](ev-database.org)

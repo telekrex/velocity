@@ -23,9 +23,16 @@ class CustomBattery:
 	# in the case that you're desiging your
 	# own battery
 
-	def __init__(self, cells, wiring = 'ser', volts, amphours):
+	def __init__(self, cells, wiring, volts, amphours):
 		self.cells = cells
 		self.wiring = wiring
 		self.volts = volts if wiring == 'par' else volts * cells
 		self.amphours = amphours if wiring == 'ser' else amphours * cells
 		self.watthours = self.volts * self.amphours
+
+
+
+
+
+x = CustomBattery(20, 'ser', 1.5, 1.1)
+print(x.watthours, x.volts)
