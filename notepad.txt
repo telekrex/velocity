@@ -10,7 +10,34 @@ Units - used in all functions in this library if not specified in the function
 - Ft lbs (when talking about torque, always use ft lbs)
 
 
-Formulas..
-Estimate HP from torque, rpm, drivetrain loss estimate
-Allow user to create a combination/string of gears and specify their sizes, and calculate the torque from the input to the output
-Find power to weight ratio from a battery
+
+Examples, and we'll make a func to form this from a class or something:
+
+Watts per Pound
+
+Formual E Car (with me in it)
+1,951.88 lbs
+350,000 W
+
+179.3 W/P
+
+
+Tesla Model S (with me in it)
+5686.514 lbs
+95,000 W
+
+16.7 W/P
+
+
+Sur-ron Dirt Bike (with me on it)
+203.617 lbs
+3000 W
+
+14.7 W/P
+
+
+Razer E90 Scooter (with me on it)
+121.6053 lbs
+450 W
+
+3.7 W/P
